@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Emoji</title>
+    <style media="screen">
+    body {
+      display: block;
+      background-color: black;
+    }
+    .mouth {
+      animation: mouth 1s steps(1) alternate infinite;
+    }
+    .eyes {
+      animation: eyes 1s steps(1) alternate infinite;
+    }
+    /* эмоджи 1 */
+    .emoji1, .emoji1-m, .emoji1-e {
+      width: 160px;
+      height: 160px;
+      background: url('images/emoji1.png');
+    }
+    .emoji1-m, .emoji1-e {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .emoji1 {
+        position: relative;
+      }
+    .emoji1-m {
+        background-position: -160px 0;
+      }
+    .emoji1-e {
+        background-position: -800px 0;
+      }
+      /* эмоджи 2 */
+      .emoji2, .emoji2-m, .emoji2-e {
+        width: 160px;
+        height: 160px;
+        background: url('images/emoji2.png');
+      }
+      .emoji2-m, .emoji2-e {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    .emoji2 {
+        position: relative;
+      }
+      .emoji2-m {
+        background-position: -160px 0;
+      }
+      .emoji2-e {
+        background-position: -800px 0;
+      }
+      /* эмоджи 3 */
+      .emoji3, .emoji3-m, .emoji3-e {
+        width: 160px;
+        height: 160px;
+        background: url('images/emoji3.png');
+      }
+      .emoji3-m, .emoji3-e {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .emoji3 {
+        position: relative;
+      }
+      .emoji3-m {
+        background-position: -160px 0;
+      }
+      .emoji3-e {
+        background-position: -800px 0;
+      }
+      /* эмоджи 4 */
+      .emoji4, .emoji4-m, .emoji4-e {
+        width: 160px;
+        height: 160px;
+        background: url('images/emoji4.png');
+      }
+      .emoji4-m, .emoji4-e {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .emoji4 {
+        position: relative;
+      }
+      .emoji4-m {
+        background-position: -160px 0;
+      }
+      .emoji4-e {
+        background-position: -800px 0;
+      }
+      /* эмоджи 5 */
+      .emoji5, .emoji5-m, .emoji5-e {
+        width: 160px;
+        height: 160px;
+        background: url('images/emoji5.png');
+      }
+      .emoji5-m, .emoji5-e {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .emoji5 {
+        position: relative;
+      }
+      .emoji5-m {
+        background-position: -160px 0;
+      }
+      .emoji5-e {
+        background-position: -800px 0;
+      }
+      /* анимация эмоджи*/
+      @keyframes mouth {
+        0% {background-position: -160px top;}
+        33% {background-position: -320px top;}
+        66% {background-position: -480px top;}
+      }
+      @keyframes eyes {
+        0% {background-position: -640px top;}
+        33% {background-position: -800px top;}
+        66% {background-position: -960px top;}
+      }
+    </style>
+  </head>
+
+
+
+  <body>
+    <!-- эмоджи 1 -->
+    <div class="emoji1">
+      <div class="emoji1-m mouth"></div>
+      <div class="emoji1-e eyes"></div>
+    </div>
+    <!-- эмоджи 2 -->
+    <div class="emoji2">
+      <div class="emoji2-m mouth"></div>
+      <div class="emoji2-e eyes"></div>
+    </div>
+    <!-- эмоджи 3 -->
+    <div class="emoji3">
+      <div class="emoji3-m mouth"></div>
+      <div class="emoji3-e eyes"></div>
+    </div>
+    <!-- эмоджи 4 -->
+    <div class="emoji4">
+      <div class="emoji4-m mouth"></div>
+      <div class="emoji4-e eyes"></div>
+    </div>
+    <!-- эмоджи 5 -->
+    <div class="emoji5">
+      <div class="emoji5-m mouth"></div>
+      <div class="emoji5-e eyes"></div>
+    </div>
+  </body>
+</html>
